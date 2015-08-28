@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# stub: minitest-rails-capybara 2.1.1.20140708223658 ruby lib
+# stub: minitest-rails-capybara 3.0 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "minitest-rails-capybara"
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://blowmage.com/minitest-rails-capybara"
   s.licenses = ["MIT"]
   s.rdoc_options = ["--main", "README.rdoc"]
-  s.rubygems_version = "2.2.2"
+  s.rubygems_version = "2.2.3"
   s.summary = "Capybara integration for Minitest and Rails"
   s.test_files = ["test/test_assertions_expectation.rb", "test/test_dsl.rb", "test/test_sanity.rb", "test/test_spec.rb", "test/test_spec_type.rb"]
 
