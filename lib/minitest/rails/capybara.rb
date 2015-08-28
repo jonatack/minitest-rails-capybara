@@ -2,7 +2,7 @@ require "minitest/rails"
 # Load minitest-capybara and minitest-matchers
 require "minitest-capybara"
 require "capybara/rails"
-require "minitest/metadata"
+# require "minitest/metadata"
 
 module Capybara
   module Rails
