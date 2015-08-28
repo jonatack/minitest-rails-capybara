@@ -17,7 +17,7 @@ module Capybara
     class TestCase < ::ActiveSupport::TestCase
       include Capybara::DSL
       include Capybara::Assertions
-      include Minitest::Metadata
+      # include Minitest::Metadata
 
       # Register by name
       register_spec_type(/(Feature|Browser)( ?Test)?\z/i, self)
@@ -34,9 +34,9 @@ module Capybara
 
       # Configure the driver using metadata
       before do
-        if metadata[:js] == true
-          Capybara.current_driver = Capybara.javascript_driver
-        end
+        # if metadata[:js] == true
+        #  Capybara.current_driver = Capybara.javascript_driver
+        # end
       end
 
       after do
